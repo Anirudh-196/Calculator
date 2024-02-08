@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Cal {
+public class Calculator {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a;
@@ -13,6 +13,8 @@ public class Cal {
         subtraction(a, b);
         division(a, b);
         multiplication(a, b);
+        square(a);
+        cube(a);
     }
 
     public static void addition(int a, int b) {
@@ -33,5 +35,11 @@ public class Cal {
 
     public static void multiplication(int a, int b) {
         System.out.println("Reasult of Multiplication is:"+(a*b));
+    }
+    public static void square(int a){
+        System.out.println("Result of Square is: "+ (a * a));
+    }
+    public static void cube(int a){
+        System.out.println("Result of Cube is: "+ (a * a * a));
     }
 }
