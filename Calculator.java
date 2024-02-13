@@ -1,11 +1,9 @@
 public class Calculator {
     public static void main(String[] args) {
         int a=20;
-        System.out.println("Enter the first number:");
-        a=sc.nextInt();
+        System.out.println(" the first number is:"+a);
         int b=10;
-        System.out.println("Enter the second number:");
-        b=sc.nextInt();
+        System.out.println(" the second number is:"+b);
         addition(a, b);
         subtraction(a, b);
         division(a, b);
