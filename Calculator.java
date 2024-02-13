@@ -1,12 +1,9 @@
-import java.util.Scanner;
-
 public class Calculator {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int a;
+        int a=20;
         System.out.println("Enter the first number:");
         a=sc.nextInt();
-        int b;
+        int b=10;
         System.out.println("Enter the second number:");
         b=sc.nextInt();
         addition(a, b);
